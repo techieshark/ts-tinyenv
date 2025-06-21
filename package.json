@@ -1,0 +1,26 @@
+{
+  "name": "ts-tinyenv",
+  "version": "0.1.0",
+  "description": "A tiny utility to get strings from process.env",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "types:generate": "tsc --emitDeclarationOnly"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "typescript": "^5",
+    "vitest": "^3"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "process-env",
+    "simple",
+    "tiny"
+  ],
+  "author": "@techieshark",
+  "license": "SEE LICENSE IN LICENSE.md"
+}

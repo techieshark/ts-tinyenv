@@ -1,7 +1,11 @@
 {
   "name": "ts-tinyenv",
-  "version": "0.1.0",
-  "description": "A tiny utility to get strings from process.env",
+  "version": "0.1.1",
+  "description": "Tiny function to get strings from process.env",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techieshark/ts-tinyenv.git"
+  },
   "main": "src/index.js",
   "types": "types/index.d.ts",
   "type": "module",
